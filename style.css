@@ -1,0 +1,71 @@
+p {
+    font-size: 18px;
+    border: 5%; }
+  
+  body {
+   background-color: silver;
+  }
+  
+  h2 {
+    color: rgb(221, 96, 87);
+  }
+  
+  .table1 {
+    width: 90%;
+    border: 5px solid black; /* Assuming you want a solid black border */
+  }
+  
+  header {
+    text-align: center;
+    height: 50px;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 15px;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+  
+  li a:hover {
+    background-color: hsl(2, 55%, 57%);
+    color: black;
+  }
+  
+  .vedio {
+    background-color: #dbe6ff;
+    color: #111111;
+    cursor: pointer;
+    border: none; /* Removed border property */
+    padding: 8px;
+    margin: 10px;
+    width: 20%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active,
+  .vedio:hover {
+    color: white;
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 30px;
+    display: none;
+    overflow: hidden;
+    background-color: hsl(0, 29%, 93%);
+  }
+ 

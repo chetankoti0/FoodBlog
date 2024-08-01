@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+} 
+.H1{
+    size:"2";
+    width:"70%";
+    color:"black";
+}
+body{
+    font-family: Verdana, sans-serif;
+    }
+.mySlidesfade{
+        display: none;
+    }
+.slideshow-container {	
+   margin: 0px;
+
+    
+}
+.mySlidesfade img{
+    width: 700px;
+    height: 500px;
+}
+.D1{
+    display: flex;
+  justify-content: center;
+
+}
+.D2{
+    
+    float: left;
+    width: 200px;
+    height: 300px;
+}
+
+  
+.D2 img {
+    min-width: 200px;
+    min-height: 280px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+img{
+    vertical-align: middle;
+    }
+body{
+    background-image:url('https://as2.ftcdn.net/v2/jpg/02/41/97/57/1000_F_241975780_BVfoYQCzYUvCccdZsp5rAANpqPTxd6yf.jpg');	
+    background-attachment: fixed;	
+    background-size: cover;
+    }	
+zoom img{
+    transition: 0.4 ns all ease-in-out ;
+    }
+zoom img:hover{ 
+        transform: scale(1.05);
+        }
